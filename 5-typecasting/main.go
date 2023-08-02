@@ -54,7 +54,36 @@ func main() {
 
 	var str3 string = fmt.Sprint(num7) // converts any data to string
 
+	{
+		var a, b int16
+		var c int32
+		a = 32767
+		b = 32767
+		//c = int64(a) + int64(b)
+		c = int32(a) + int32(b)
+		fmt.Println(c)
+
+		//c = 131313
+	}
+
 	fmt.Println(str3, reflect.TypeOf(str3))
 	fmt.Printf("value %s type %T\n", str3, str3)
 
+	// str := "Hello world how are you doing"
+	// str2:= "Hello folks"
+	// str3:="Hello Gophers"
+
+	// str = "fjfsdjf;dsjf'dl;fjld;sfjsfslfsdfjsfpoewjropwer"
+
+	// int --> on 32 bit machines 4 bytes and 64 bit machines 8 bytes
+
 }
+
+// int a=100;
+// int b=200;
+
+// 1 2 4 8 16 32 64 128
+
+//*int ptr = malloc(100) // to crete memory of 100bytes in heap
+
+// free(*ptr)
