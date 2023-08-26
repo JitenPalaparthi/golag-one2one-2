@@ -1,0 +1,3 @@
+- Take elements of slice 
+- Fill it with rand numbers
+- Return a slice with desending order // Write a sort kind of algo
